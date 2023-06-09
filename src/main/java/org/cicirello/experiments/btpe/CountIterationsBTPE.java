@@ -39,7 +39,7 @@ public final class CountIterationsBTPE {
    * @param args ignored, no command line arguments.
    */
   public static void main(String[] args) {
-    final int TRIALS = 100;
+    final int TRIALS = 10000;
     final int MIN_N = 32;
     final int MAX_N = 1048576;
 
