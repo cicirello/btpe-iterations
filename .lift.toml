@@ -1,0 +1,5 @@
+jdkVersion = "17"
+
+ignoreRules = ["PREDICTABLE_RANDOM"]
+
+disableTools = ["Pyright", "Flake8"]
