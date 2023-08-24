@@ -19,3 +19,4 @@ run:
 analyze:
 	$(py) -m pip install --upgrade --user scipy
 	$(py) -B src/main/python/analyze.py ${pathToDataFiles}/raw.txt > ${pathToDataFiles}/tables.tex
+	$(py) -B src/main/python/findmax.py ${pathToDataFiles}/raw.txt > ${pathToDataFiles}/max.txt
