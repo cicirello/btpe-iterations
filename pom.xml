@@ -9,10 +9,12 @@
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
   
-	<name>Analysis of iterations of BTPE algorithm for binomial random variate generation</name>
+	<name>An Analysis of an Open Source Binomial Random Variate Generation Algorithm</name>
 	
 	<description>This package contains Java code to reproduce the experiments
-	of ADD-DETAILS-LATER-RELATED-TO-ARTICLE.
+	of the following article: Vincent A. Cicirello. 2023. An Analysis of an 
+	Open Source Binomial Random Variate Generation Algorithm, Engineering Proceedings, 
+	56(1), Article 86, October 2023. doi:10.3390/ASEC2023-15349.
 	</description>
 	
 	<url>https://github.com/cicirello/btpe-iterations</url>
@@ -23,7 +25,7 @@
 		<url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
 		<distribution>repo</distribution>
 		<comments>
-		Analysis of iterations of BTPE algorithm for binomial random variate generation.
+		An Analysis of an Open Source Binomial Random Variate Generation Algorithm.
 		Copyright (C) 2023 Vincent A. Cicirello.
  
 		This program is free software: you can redistribute it and/or modify
@@ -238,8 +240,8 @@
 				<configuration>
 					<failOnWarnings>true</failOnWarnings>
 					<failOnError>true</failOnError>
-					<windowtitle>Analysis of iterations of BTPE algorithm for binomial random variate generation</windowtitle>
-					<doctitle>Analysis of iterations of BTPE algorithm for binomial random variate generation</doctitle>
+					<windowtitle>An Analysis of an Open Source Binomial Random Variate Generation Algorithm</windowtitle>
+					<doctitle>An Analysis of an Open Source Binomial Random Variate Generation Algorithm</doctitle>
 					<author>true</author>
 					<version>false</version>
 					<nosince>true</nosince>

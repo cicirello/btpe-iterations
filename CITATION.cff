@@ -1,0 +1,22 @@
+cff-version: "1.2.0"
+message: "If you use this software, please cite the article from preferred-citation."
+authors: 
+- family-names: "Cicirello"
+  given-names: "Vincent A"
+  orcid: "https://orcid.org/0000-0003-1072-8559"
+title: "An Analysis of an Open Source Binomial Random Variate Generation Algorithm"
+license: "GPL-3.0-or-later"
+url: "https://github.com/cicirello/btpe-iterations"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Cicirello"
+    given-names: "Vincent A"
+    orcid: "https://orcid.org/0000-0003-1072-8559"
+  doi: "10.3390/ASEC2023-15349"
+  journal: "Engineering Proceedings"
+  title: "An Analysis of an Open Source Binomial Random Variate Generation Algorithm"
+  year: 2023
+  volume: 56
+  issue: 1
+  start: 86
