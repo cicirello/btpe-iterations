@@ -1,5 +1,5 @@
 /*
- * Analysis of iterations of BTPE algorithm for binomial random variate generation.
+ * An Analysis of an Open Source Binomial Random Variate Generation Algorithm.
  * Copyright (C) 2023 Vincent A. Cicirello
  *
  * This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,11 @@ import org.cicirello.math.rand.RandomVariates;
 /**
  * Code to reproduce the experiments from the following article:
  *
- * <p>INSERT DETAILS HERE LATER
+ * <p>Vincent A. Cicirello. 2023. <a
+ * href="https://www.cicirello.org/publications/engproc-56-00086.pdf">An Analysis of an Open Source
+ * Binomial Random Variate Generation Algorithm</a>. <i>Engineering Proceedings</i>, 56(1), Article
+ * 86, October 2023. doi:<a
+ * href="https://doi.org/10.3390/ASEC2023-15349">10.3390/ASEC2023-15349</a>.
  *
  * @author <a href=https://www.cicirello.org/ target=_top>Vincent A. Cicirello</a>, <a
  *     href=https://www.cicirello.org/ target=_top>https://www.cicirello.org/</a>
