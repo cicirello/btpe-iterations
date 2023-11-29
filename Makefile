@@ -11,6 +11,15 @@ pathToDataFiles = "data"
 build:
 	mvn clean package
 
+.PHONY: download
+download:
+ifeq ($(OS),Windows_NT)
+	if not exist target mkdir target
+else
+	mkdir -p target
+endif
+	cd target && curl -O -J -L  "https://repo1.maven.org/maven2/org/cicirello/btpe-iterations/1.0.0/btpe-iterations-1.0.0-jar-with-dependencies.jar"
+
 .PHONY: run
 run:
 	java -cp ${JARFILE} org.cicirello.experiments.btpe.CountIterationsBTPE > ${pathToDataFiles}/raw.txt
