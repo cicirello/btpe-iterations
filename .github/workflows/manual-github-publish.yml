@@ -1,7 +1,7 @@
 name: Manual GitHub Packages
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   publish:
