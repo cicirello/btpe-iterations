@@ -10,7 +10,7 @@ experimental data, from the following paper:
 | __Related Publication__ | [![doi:10.3390/ASEC2023-15349](doi.svg)](https://doi.org/10.3390/ASEC2023-15349) |
 | :--- | :--- |
 | __License__ | [![GitHub](https://img.shields.io/github/license/cicirello/cycle-mutation-experiments)](LICENSE) |
-| __Packages and Releases__ |  |
+| __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/btpe-iterations.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.cicirello/btpe-iterations/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/btpe-iterations?logo=GitHub)](https://github.com/cicirello/btpe-iterations/releases) |
 
 ## Dependencies
 
@@ -56,6 +56,21 @@ of the repository.
 ```shell
 make build
 ```
+
+## Downloading a prebuilt jar (Option 2)
+
+As an alternative to building the jar (see above), you can choose to instead
+download a prebuilt jar of the experiments from the Maven Central repository.
+The Makefile contains a target that will do this for you, provided that you have
+curl installed on your system. To download the jar of the precompiled code of 
+the experiments, run the following from the root of the repository:
+
+```shell
+make download
+```
+
+The jar that it downloads contains the compiled code of the experiments as well
+as all dependencies within a single jar file.
 
 ## Running the Experiments
 
