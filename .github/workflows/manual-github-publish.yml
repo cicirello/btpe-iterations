@@ -1,0 +1,34 @@
+name: Manual GitHub Packages
+
+on:
+  workflow-dispatch:
+
+jobs:
+  publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Get the release version
+      id: get_version
+      run: echo "VERSION=1.0.0" >> $GITHUB_OUTPUT
+
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
+
+    - name: Update package version
+      run: mvn versions:set -DnewVersion=${{ steps.get_version.outputs.VERSION }}
+
+    - name: Set up JDK 17 for deploy to github packages
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'adopt'
+        java-version: '17'
+        server-id: github 
+
+    - name: Publish to GitHub Packages Apache Maven
+      run: mvn deploy -PgithubDeploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
