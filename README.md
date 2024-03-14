@@ -100,8 +100,14 @@ repository:
 make analyze
 ```
 
+And for the second paper that utilizes this data:
+
+```shell
+make analyzepaper2
+```
+
 If you don't want to overwrite my original data files, and tables, then change the 
-variable `pathToDataFiles` in the `Makefile` before running the above command.
+variable `pathToDataFiles` in the `Makefile` before running the above commands.
 
 This will analyze the data from the [/data](data) directory. It will also 
 generate the tables, etc in that directory. This make command will also take
