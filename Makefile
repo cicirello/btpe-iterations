@@ -29,3 +29,8 @@ analyze:
 	$(py) -m pip install --upgrade --user scipy
 	$(py) -B src/main/python/analyze.py ${pathToDataFiles}/raw.txt > ${pathToDataFiles}/tables.tex
 	$(py) -B src/main/python/findmax.py ${pathToDataFiles}/raw.txt > ${pathToDataFiles}/max.txt
+
+.PHONY: analyzepaper2
+analyzepaper2:
+	$(py) -m pip install --upgrade --user scipy
+	$(py) -B src/main/python/onetable.py ${pathToDataFiles}/raw.txt > ${pathToDataFiles}/table-for-paper2.tex

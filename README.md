@@ -1,13 +1,15 @@
 # btpe-iterations
 
-Copyright &copy; 2023 Vincent A. Cicirello
+Copyright &copy; 2023-2024 Vincent A. Cicirello
 
 This repository contains code to reproduce the experiments, and analysis of 
-experimental data, from the following paper:
+experimental data, from the following papers:
 
 > Vincent A. Cicirello. 2023. [An Analysis of an Open Source Binomial Random Variate Generation Algorithm](https://www.cicirello.org/publications/engproc-56-00086.pdf), *Engineering Proceedings*, 56(1), Article 86, October 2023. doi:[10.3390/ASEC2023-15349](https://doi.org/10.3390/ASEC2023-15349).
 
-| __Related Publication__ | [![doi:10.3390/ASEC2023-15349](doi.svg)](https://doi.org/10.3390/ASEC2023-15349) |
+> Vincent A. Cicirello. 2024. [On the Average Runtime of an Open Source Binomial Random Variate Generation Algorithm](https://reports.cicirello.org/24/007/ALG-24-007.pdf), *arXiv*:[2403.11018](https://arxiv.org/abs/2403.11018), March 2024. 
+
+| __Related Publications__ | [![doi:10.3390/ASEC2023-15349](doi.svg)](https://doi.org/10.3390/ASEC2023-15349) [![arXiv:2403.11018](doi2.svg)](https://arxiv.org/abs/2403.11018) |
 | :--- | :--- |
 | __License__ | [![GitHub](https://img.shields.io/github/license/cicirello/cycle-mutation-experiments)](LICENSE) |
 | __Packages and Releases__ | [![Maven Central](https://img.shields.io/maven-central/v/org.cicirello/btpe-iterations.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.cicirello/btpe-iterations/) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/cicirello/btpe-iterations?logo=GitHub)](https://github.com/cicirello/btpe-iterations/releases) |
@@ -100,8 +102,14 @@ repository:
 make analyze
 ```
 
+And for the second paper that utilizes this data:
+
+```shell
+make analyzepaper2
+```
+
 If you don't want to overwrite my original data files, and tables, then change the 
-variable `pathToDataFiles` in the `Makefile` before running the above command.
+variable `pathToDataFiles` in the `Makefile` before running the above commands.
 
 This will analyze the data from the [/data](data) directory. It will also 
 generate the tables, etc in that directory. This make command will also take
