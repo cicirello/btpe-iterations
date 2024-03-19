@@ -3,9 +3,11 @@
 Copyright &copy; 2023 Vincent A. Cicirello
 
 This repository contains code to reproduce the experiments, and analysis of 
-experimental data, from the following paper:
+experimental data, from the following papers:
 
 > Vincent A. Cicirello. 2023. [An Analysis of an Open Source Binomial Random Variate Generation Algorithm](https://www.cicirello.org/publications/engproc-56-00086.pdf), *Engineering Proceedings*, 56(1), Article 86, October 2023. doi:[10.3390/ASEC2023-15349](https://doi.org/10.3390/ASEC2023-15349).
+
+> Vincent A. Cicirello. 2024. [On the Average Runtime of an Open Source Binomial Random Variate Generation Algorithm](https://reports.cicirello.org/24/007/ALG-24-007.pdf), *arXiv*:[2403.11018](https://arxiv.org/abs/2403.11018), March 2024. 
 
 | __Related Publication__ | [![doi:10.3390/ASEC2023-15349](doi.svg)](https://doi.org/10.3390/ASEC2023-15349) |
 | :--- | :--- |
