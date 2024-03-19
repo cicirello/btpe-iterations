@@ -1,6 +1,6 @@
 # btpe-iterations
 
-Copyright &copy; 2023 Vincent A. Cicirello
+Copyright &copy; 2023-2024 Vincent A. Cicirello
 
 This repository contains code to reproduce the experiments, and analysis of 
 experimental data, from the following papers:
